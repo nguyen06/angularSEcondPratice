@@ -1,0 +1,14 @@
+<div>
+  <p
+      *ngIf="userName"
+      class="welcome">
+    Welcome: {{userName}}
+    </p>
+
+    <button 
+        (click)="signIn()"
+        class="ui button"
+    >
+    signIn
+    </button>
+</div>
